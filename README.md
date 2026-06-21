@@ -24,13 +24,13 @@ The ecosystem consists of three distinct machines operating to serve the applica
 
 ```mermaid
 graph TD
-    subgraph Local Network (College)
+    subgraph local_network ["Local Network (College)"]
         A[Computer A: Windows Server 2008 R2<br>MS SQL Database]
         B[Computer B: Windows 7<br>Node.js Backend]
         A <-->|Internal Connection| B
     end
 
-    subgraph External Network
+    subgraph external_network ["External Network"]
         L[Developer Laptop<br>Code Editing]
         N[Netlify<br>Frontend Host]
     end
