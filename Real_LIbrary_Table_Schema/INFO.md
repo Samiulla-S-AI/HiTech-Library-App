@@ -1,0 +1,5 @@
+DB_READ_ONLY_USER = LibraryUserReader1
+DB_READ_ONLY_PASSWORD = hitlibrary@123
+DB_NAME = lips5_sql
+DB_SERVER =  172.16.0.114
+DB_PORT = 1433

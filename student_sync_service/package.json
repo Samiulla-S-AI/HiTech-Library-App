@@ -1,0 +1,14 @@
+{
+  "name": "student-sync-service",
+  "version": "1.0.0",
+  "description": "Sync student data from MSSQL to Supabase every 3 months",
+  "main": "sync.js",
+  "scripts": {
+    "start": "node sync.js"
+  },
+  "dependencies": {
+    "mssql": "^6.3.2",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.7"
+  }
+}

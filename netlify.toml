@@ -1,0 +1,15 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+  command = "" # No build command needed for this static site
+
+# OTP function routes
+[[redirects]]
+  from = "/api/otp/send"
+  to = "/.netlify/functions/otp/send"
+  status = 200
+
+[[redirects]]
+  from = "/api/otp/verify"
+  to = "/.netlify/functions/otp/verify"
+  status = 200
